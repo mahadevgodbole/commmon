@@ -13,4 +13,4 @@ const errorHandler = (
         errors: [{ message: "Something went wrong" }]
     })
 }
-module.exports =errorHandler;
+module.exports ={errorHandler};

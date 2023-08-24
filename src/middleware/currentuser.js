@@ -13,4 +13,4 @@ const currentUser = (req,res,next)=>{
     next();
 }
 
-module.exports=currentUser;
+module.exports={currentUser};

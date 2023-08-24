@@ -7,3 +7,5 @@ $// tsc --init
 $ npm install typescript del-cli --dave-dev
 
 $$ rm -f .git/index.lock
+
+$$ npm install @godbole/common
