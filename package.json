@@ -1,10 +1,12 @@
 {
   "name": "@godbole/common",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "./src/index.js",
-  "types":"./build/index.d.ts",
-  "files":["src/**/*"],
+  "types": "./build/index.d.ts",
+  "files": [
+    "src/**/*"
+  ],
   "scripts": {
     "clean": "del ./build/*",
     "build": "npm run clean && tsc"
