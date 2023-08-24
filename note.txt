@@ -1,0 +1,7 @@
+//publish public 
+$ npm publish --access public
+
+$npm adduser
+
+$// tsc --init
+$ npm install typescript del-cli --dave-dev
