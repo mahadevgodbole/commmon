@@ -1,6 +1,6 @@
 const color={
     red:1,
-    blue:2
+    blue:20
 }
 
 console.log(color)

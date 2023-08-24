@@ -1,6 +1,6 @@
 //publish public 
 $ npm publish --access public
-
+$npm publish
 $npm adduser
 
 $// tsc --init
