@@ -25,6 +25,13 @@ const {errorHandler} = require("./middleware/error-handler");
 const {requireAuth} = require("./middleware/require-auth");
 const {validateRequest} = require("./middleware/validation-request");
 
+
+const {Listener}=require("./events/base-listener");
+const {Publisher}=require("./events/base-publisher")
+const {Subjects}=require("./events/subject");
+const {TicketCreatedEvent}=require("./events/ticket-created-event");
+const {TicketUpdatedEvent}=require("./events/ticket-updated-event");
+
 module.exports = {
   BadRequestError,
   CustomError,
@@ -35,6 +42,12 @@ module.exports = {
   currentUser,
   errorHandler,
   requireAuth,
-  validateRequest
+  validateRequest,
+
+  Listener,
+  Publisher,
+  Subjects,
+  TicketCreatedEvent,
+  TicketUpdatedEvent,
 };
 
